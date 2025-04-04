@@ -1,38 +1,48 @@
-# Ultimaths
+# 🧠 Ultimaths
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+**Ultimaths** est un jeu mobile d'arcade éducatif, dans l'esprit de *Doodle Jump*, mais version mathématiques !  
+Vous incarnez un personnage qui doit sauter de plateforme en plateforme… en résolvant des **calculs mentaux** à toute vitesse ! 🚀
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## 🎮 Concept
 
-## Platforms
+Pour grimper dans les airs, pas question de sauter au hasard :  
+👉 Chaque plateforme affiche un résultat, mais une seule est correcte !  
+🔢 Résolvez l'équation posée et sautez sur la **bonne réponse** pour continuer à monter.  
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-- `android`: Android mobile platform. Needs Android SDK.
-- `html`: Web platform using GWT and WebGL. Supports only Java projects.
+---
 
-## Gradle
+## 🕹️ Historique
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+- ✅ **Sortie initiale** : 2020 sur Google Play
+- 📦 À l'époque, **Git/GitHub n'étaient pas utilisés** sur ce projet
+- ❌ **Supprimé** pour cause de compte inactif
+- 🔁 **Relancement en 2025** : recodé **from scratch**
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `android:lint`: performs Android project validation.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `html:dist`: compiles GWT sources. The compiled application can be found at `html/build/dist`: you can use any HTTP server to deploy it.
-- `html:superDev`: compiles GWT sources and runs the application in SuperDev mode. It will be available at [localhost:8080/html](http://localhost:8080/html). Use only during development.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+📷 Un aperçu de la première version (2020) est encore visible ici :  
+➡️ [Ultimaths sur APKPure](https://apkpure.com/fr/ultimaths-math-game-mental-arithmetic/com.rootbu.ultimaths)
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+---
+
+## 🔧 Objectif 2025
+
+Je reprends ce projet avec une nouvelle ambition :  
+- 🔁 **Réécriture complète**
+- 💻 **100% Java**
+- 🎮 Utilisation du framework **LibGDX** (au lieu de Unity)
+
+---
+
+## 📌 Pourquoi ce projet ?
+
+Je souhaite :
+- 🔁 Donner une seconde vie à un jeu que j’ai adoré concevoir
+- 💡 Améliorer la fluidité, l’expérience utilisateur, et le gameplay
+- 🧱 Créer une base solide pour ajouter de nouvelles mécaniques éducatives à l’avenir
+
+---
+
+## 🚧 En cours de développement
+
+Le projet est en phase de (re)construction.  
+
+---
